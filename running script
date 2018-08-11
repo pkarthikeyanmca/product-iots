@@ -1,0 +1,14 @@
+wso2iot-3.3.0/bin/broker.sh [.bat]
+wso2iot-3.3.0/bin/iot-server.sh [.bat]
+wso2iot-3.3.0/bin/analytics.sh [.bat]
+
+Please let me know how to start all scripts at a time in a single machine .I am going to use IOS devices.
+I tried this command to run :sh -x broker.sh & sh -x iot-server.sh & sh -x analytics.sh &
+but am getting error below 
+
+[IoT-Broker] ERROR {org.wso2.carbon.user.core.util.DatabaseUtil} - Database Error - Database may be already in use: "Locked by another process". Possible solutions: close all other connection(s); use the server mode [90020-175]
+
+I am new to this please help me onthis.
+
+Thanks,
+P.Karthi
